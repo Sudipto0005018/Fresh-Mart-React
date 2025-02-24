@@ -1,21 +1,25 @@
-import React from 'react';
+import React from "react";
 import "./Home.css";
-import Product from "./Product"
+import Product from "./Product";
 
 function Home() {
   return (
     <div className="home">
       <div className="home__container">
-        <img className="home__image"
+        <img
+          className="home__image"
           src="https://img.freepik.com/free-vector/flat-supermarket-twitch-banner_23-2149357203.jpg?w=1380&t=st=1659215053~exp=1659215653~hmac=264a22be278e032700dae3a8ddb47b20765efff1acff7e33ac8f37862e2c3465"
-          alt="" />
+          alt=""
+        />
 
         <div className="home__row">
           <Product
             id="1"
             title="Tata Sampann 100% Chana Dal Fine Besan, Gram Flour  (1 kg)"
             price={119}
-            image={"https://rukminim1.flixcart.com/image/280/280/knknc7k0/flour/v/l/e/fine-besan-besan-tata-sampann-original-imag27vfgxfy4qae.jpeg?q=70"}
+            image={
+              "https://rukminim1.flixcart.com/image/280/280/knknc7k0/flour/v/l/e/fine-besan-besan-tata-sampann-original-imag27vfgxfy4qae.jpeg?q=70"
+            }
             rating={4}
           />
 
@@ -27,8 +31,6 @@ function Home() {
             image="https://rukminim1.flixcart.com/image/280/280/l0tweq80/cookie-biscuit/6/d/v/-original-imagcj64ufcuhukb.jpeg?q=70"
           />
 
-
-
           <Product
             id="3"
             title="Dukes Kaju Kukkies with real taste of Kaju Cookies  (400 g)"
@@ -36,7 +38,6 @@ function Home() {
             rating={4}
             image="https://rukminim1.flixcart.com/image/416/416/kobspe80/cookie-biscuit/d/d/p/kaju-kukkies-dukes-original-imag2thhbvzyfrpm.jpeg?q=70"
           />
-
         </div>
 
         <div className="home__row">
@@ -53,7 +54,8 @@ function Home() {
             title="INDIA GATE Feast Rozzana Basmati Rice"
             price={107}
             rating={3}
-            image="https://rukminim1.flixcart.com/image/280/280/knqd3m80/rice/9/o/d/white-feast-rozzana-na-basmati-rice-pouch-india-gate-original-imag2c7wfzxrfwdy.jpeg?q=70" />
+            image="https://rukminim1.flixcart.com/image/280/280/knqd3m80/rice/9/o/d/white-feast-rozzana-na-basmati-rice-pouch-india-gate-original-imag2c7wfzxrfwdy.jpeg?q=70"
+          />
 
           <Product
             id="6"
@@ -81,10 +83,9 @@ function Home() {
             image="https://m.media-amazon.com/images/I/71P46K9QwqL._AC_UL480_QL65_.jpg"
           />
         </div>
-
       </div>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
